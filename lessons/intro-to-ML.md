@@ -51,9 +51,9 @@ As a general trend, parametric and linear algorithms often have high bias and lo
 
 ****Datasets**** are *resources* for exploring, transforming, and managing data in Azure ML. A dataset is essentially a reference that points to the data in storage. It is used to get specific data files in the datastores.
 
-![azure-datastore-dataset.jpg](attachment:azure-datastore-dataset.jpg)
+![azure-datastore-dataset](azure-datastore-dataset.jpg)
 
-The steps of the data access workflow are:
+The steps of the data access **workflow** are:
 
 - Create a datastore so that you can access storage services in Azure.
 - Create a dataset, which you will subsequently use for model training in your machine learning experiment.
